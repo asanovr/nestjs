@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/golevelup/nestjs.git"
+    "url": "git+https://github.com/asanovr/nestjs.git"
   },
   "scripts": {
     "build": "tsc --build tsconfig.build.json",
@@ -54,5 +54,6 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "gitHead": "fc5190592e40f939fabca884bbd52132b7826bc5"
 }
