@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.5](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-hasura@4.0.0...@golevelup/nestjs-hasura@3.0.5) (2023-09-01)
+
+### Reverts
+
+- Revert "chore: publish" ([6df4b69](https://github.com/golevelup/nestjs/commit/6df4b6917077316d189c5a93ee80010801557606))
+
 ## [3.0.4](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-hasura@3.0.3...@golevelup/nestjs-hasura@3.0.4) (2023-07-18)
 
 **Note:** Version bump only for package @golevelup/nestjs-hasura

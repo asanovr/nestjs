@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/golevelup/nestjs/compare/@golevelup/ts-sinon@0.2.0...@golevelup/ts-sinon@0.1.1) (2023-09-01)
+
+### Reverts
+
+- Revert "chore: publish" ([6df4b69](https://github.com/golevelup/nestjs/commit/6df4b6917077316d189c5a93ee80010801557606))
+
 # 0.1.0 (2023-07-18)
 
 ### Features

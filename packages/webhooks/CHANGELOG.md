@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.17](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-webhooks@0.3.0...@golevelup/nestjs-webhooks@0.2.17) (2023-09-01)
+
+### Reverts
+
+- Revert "chore: publish" ([6df4b69](https://github.com/golevelup/nestjs/commit/6df4b6917077316d189c5a93ee80010801557606))
+
 ## [0.2.16](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-webhooks@0.2.15...@golevelup/nestjs-webhooks@0.2.16) (2023-07-18)
 
 **Note:** Version bump only for package @golevelup/nestjs-webhooks

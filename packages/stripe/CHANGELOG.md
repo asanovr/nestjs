@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.4](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-stripe@0.7.0...@golevelup/nestjs-stripe@0.6.4) (2023-09-01)
+
+### Reverts
+
+- Revert "chore: publish" ([6df4b69](https://github.com/golevelup/nestjs/commit/6df4b6917077316d189c5a93ee80010801557606))
+
 ## [0.6.3](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-stripe@0.6.2...@golevelup/nestjs-stripe@0.6.3) (2023-07-18)
 
 **Note:** Version bump only for package @golevelup/nestjs-stripe
