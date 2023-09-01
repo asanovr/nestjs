@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2023-09-01)
+
+### Bug Fixes
+
+- **common:** expose full gql request api ([4f649ea](https://github.com/asanovr/nestjs/commit/4f649eaf5553bbf3b12f60138d39401b1e3fcd44)), closes [#122](https://github.com/asanovr/nestjs/issues/122)
+- **graphql-request:** Exporting GraphQLRequestModuleConfig interface to be able to use it when creating config classes. ([#539](https://github.com/asanovr/nestjs/issues/539)) ([5d2b640](https://github.com/asanovr/nestjs/commit/5d2b640ae4d5253029073dc9c232696b53826a1a))
+
+### Features
+
+- **graphql-request:** module ([c38ca5d](https://github.com/asanovr/nestjs/commit/c38ca5d2218cb9df23baf9f422012ea56d074714))
+
+### Reverts
+
+- Revert "chore: publish" ([6df4b69](https://github.com/asanovr/nestjs/commit/6df4b6917077316d189c5a93ee80010801557606))
+
 ## [0.1.17](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-graphql-request@0.2.0...@golevelup/nestjs-graphql-request@0.1.17) (2023-09-01)
 
 ### Reverts
