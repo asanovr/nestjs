@@ -1,7 +1,7 @@
 import {
   MessageHandlerErrorBehavior,
   RabbitRPC,
-} from '@golevelup/nestjs-rabbitmq';
+} from '@asanovr/nestjs-rabbitmq';
 import { Injectable, UseInterceptors } from '@nestjs/common';
 import { TransformInterceptor } from '../transform.interceptor';
 import { ReplyErrorCallback } from './reply.error.callback';

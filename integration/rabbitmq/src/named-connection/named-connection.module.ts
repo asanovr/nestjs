@@ -1,4 +1,4 @@
-import { RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
+import { RabbitMQModule } from '@asanovr/nestjs-rabbitmq';
 import { Module } from '@nestjs/common';
 import { CONNECTION_NAME } from './named-connection.constants';
 import { NamedConnectionController } from './named-connection.controller';

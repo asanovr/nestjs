@@ -2,7 +2,7 @@ import {
   AmqpConnection,
   RabbitMQModule,
   RabbitSubscribe,
-} from '@golevelup/nestjs-rabbitmq';
+} from '@asanovr/nestjs-rabbitmq';
 import { INestApplication, Injectable, LoggerService } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 import { flatten, times } from 'lodash';

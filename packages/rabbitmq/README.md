@@ -1,14 +1,14 @@
-# @golevelup/nestjs-rabbitmq
+# @asanovr/nestjs-rabbitmq
 
 <p align="center">
-<a href="https://www.npmjs.com/package/@golevelup/nestjs-rabbitmq"><img src="https://img.shields.io/npm/v/@golevelup/nestjs-rabbitmq.svg?style=flat" alt="version" /></a>
-<a href="https://www.npmjs.com/package/@golevelup/nestjs-rabbitmq"><img alt="downloads" src="https://img.shields.io/npm/dt/@golevelup/nestjs-rabbitmq.svg?style=flat"></a>
-<img alt="license" src="https://img.shields.io/npm/l/@golevelup/nestjs-rabbitmq.svg">
+<a href="https://www.npmjs.com/package/@asanovr/nestjs-rabbitmq"><img src="https://img.shields.io/npm/v/@asanovr/nestjs-rabbitmq.svg?style=flat" alt="version" /></a>
+<a href="https://www.npmjs.com/package/@asanovr/nestjs-rabbitmq"><img alt="downloads" src="https://img.shields.io/npm/dt/@asanovr/nestjs-rabbitmq.svg?style=flat"></a>
+<img alt="license" src="https://img.shields.io/npm/l/@asanovr/nestjs-rabbitmq.svg">
 </p>
 
 # Table of Contents
 
-- [@golevelup/nestjs-rabbitmq](#golevelupnestjs-rabbitmq)
+- [@asanovr/nestjs-rabbitmq](#golevelupnestjs-rabbitmq)
 - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Motivation](#motivation)
@@ -63,7 +63,7 @@ Now, this package leverages [`amqp-connection-manager`](https://github.com/benbr
 If you want to transition to the new behavior and enable connection resiliency, you can configure `connectionInitOptions` to not wait for a connection to be available, for example:
 
 ```typescript
-import { RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
+import { RabbitMQModule } from '@asanovr/nestjs-rabbitmq';
 
 @Module({
   imports: [
@@ -90,11 +90,11 @@ The same principle applies to when a connection is lost. In such cases, the modu
 
 ### Install
 
-`npm install ---save @golevelup/nestjs-rabbitmq`
+`npm install ---save @asanovr/nestjs-rabbitmq`
 
 or
 
-`yarn add @golevelup/nestjs-rabbitmq`
+`yarn add @asanovr/nestjs-rabbitmq`
 
 ### Module Initialization
 
@@ -105,7 +105,7 @@ If you are using exchanges, provide information about them to the module and the
 You can also optionally create your own channels which you consume messages from. If you don't create your own channels there will always be one created by default. You can also select which channel is default if you are creating your own. By setting `prefetchCount` for a particular channel you can manage message speeds of your various handlers on the same connection.
 
 ```typescript
-import { RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
+import { RabbitMQModule } from '@asanovr/nestjs-rabbitmq';
 import { Module } from '@nestjs/common';
 import { MessagingController } from './messaging/messaging.controller';
 import { MessagingService } from './messaging/messaging.service';
@@ -164,7 +164,7 @@ class ExampleInterceptor implements NestInterceptor {
 There is also a utility function available called `isRabbitContext` which provides an alternative way to identify RabbitMQ contexts:
 
 ```typescript
-import { isRabbitContext } from '@golevelup/nestjs-rabbitmq';
+import { isRabbitContext } from '@asanovr/nestjs-rabbitmq';
 
 @Injectable()
 class ExampleInterceptor implements NestInterceptor {
@@ -188,7 +188,7 @@ WARNING: When using controllers, be aware that no HTTP context is available.
 To enable the controller discovery the option enableControllerDiscovery has to be true.
 
 ```typescript
-import { RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
+import { RabbitMQModule } from '@asanovr/nestjs-rabbitmq';
 import { Module } from '@nestjs/common';
 import { MessagingController } from './messaging/messaging.controller';
 import { MessagingService } from './messaging/messaging.service';
@@ -255,7 +255,7 @@ interceptedRpc(@RabbitPayload()  message:messageDto) {
 Simply apply the `RabbitRPC` decorator to a new or existing NestJS service class. When a message matching the exchange and routing key is received over RabbitMQ, the result of the Service method will be automatically sent back to the requester using the [Direct Reply-To Queue](https://www.rabbitmq.com/direct-reply-to.html).
 
 ```typescript
-import { RabbitRPC } from '@golevelup/nestjs-rabbitmq';
+import { RabbitRPC } from '@asanovr/nestjs-rabbitmq';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -278,7 +278,7 @@ export class MessagingService {
 Simply apply the `RabbitSubscribe` decorator to a new or existing NestJS service class. When a message matching the exchange and routing key is received over RabbitMQ, the service method will automatically be invoked with the message allowing it to be handled as necessary.
 
 ```typescript
-import { RabbitSubscribe } from '@golevelup/nestjs-rabbitmq';
+import { RabbitSubscribe } from '@asanovr/nestjs-rabbitmq';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -300,7 +300,7 @@ By default, messages are parsed with `JSON.parse` method when they are received 
 If you wish to change this behavior, you can use your own parsers, like so
 
 ```typescript
-import { RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
+import { RabbitMQModule } from '@asanovr/nestjs-rabbitmq';
 import { Module } from '@nestjs/common';
 import { MessagingController } from './messaging/messaging.controller';
 import { MessagingService } from './messaging/messaging.service';
@@ -337,7 +337,7 @@ NestJS Plus provides sane defaults for message handling with automatic acking of
 By default, messages that are Nacked will not be requeued. However, if you would like to requeue the message so that another handler has an opportunity to process it use the optional requeue constructor argument set to true.
 
 ```typescript
-import { RabbitRPC } from '@golevelup/nestjs-rabbitmq';
+import { RabbitRPC } from '@asanovr/nestjs-rabbitmq';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -377,7 +377,7 @@ The raw message is passed to the consumer as a second argument.
 If the method signature of the consumer accepts `amqplib.ConsumeMessage` as a second argument, it enables to access all information that is available on the original message.
 
 ```typescript
-import { RabbitSubscribe } from '@golevelup/nestjs-rabbitmq';
+import { RabbitSubscribe } from '@asanovr/nestjs-rabbitmq';
 import { Injectable } from '@nestjs/common';
 import { ConsumeMessage } from 'amqplib';
 
@@ -401,7 +401,7 @@ You can optionally select channel which handler uses to consume messages from.
 Set the `queueOptions.channel` to the name of the channel to enable this feature. If channel does not exist or you haven't specified one, it will use the default channel. For channel to exist it needs to be created in module config.
 
 ```typescript
-import { RabbitSubscribe, RabbitRPC } from '@golevelup/nestjs-rabbitmq';
+import { RabbitSubscribe, RabbitRPC } from '@asanovr/nestjs-rabbitmq';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -497,7 +497,7 @@ The generic parameter used with the `request` method lets you specify the _expec
 
 #### Interop with other RPC Servers
 
-The RPC functionality included in `@golevelup/nestjs-rabbitmq` is based on the [Direct Reply-To Queue](https://www.rabbitmq.com/direct-reply-to.html) functionality of RabbitMQ. It is possible that because of this, the client library (`AmqpConnection.request`) could be used to interact with an RPC server implemented using a different language or framework. However, this functionality has not been verified.
+The RPC functionality included in `@asanovr/nestjs-rabbitmq` is based on the [Direct Reply-To Queue](https://www.rabbitmq.com/direct-reply-to.html) functionality of RabbitMQ. It is possible that because of this, the client library (`AmqpConnection.request`) could be used to interact with an RPC server implemented using a different language or framework. However, this functionality has not been verified.
 
 ## Advanced Patterns
 
@@ -512,7 +512,7 @@ If you don't want this behavior, simply don't provide a queue name. A unique one
 **Important** RPC behavior has not been tested without the use of a named queue as this would cause multiple messages to potentially be sent back in response to a single request. If you're using RPC it is highly recommended that you specify a named queue. The API may be updated in the future to specifically require this.
 
 ```typescript
-import { RabbitSubscribe } from '@golevelup/nestjs-rabbitmq';
+import { RabbitSubscribe } from '@asanovr/nestjs-rabbitmq';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()

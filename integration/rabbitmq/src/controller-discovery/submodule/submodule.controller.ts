@@ -2,7 +2,7 @@ import {
   MessageHandlerErrorBehavior,
   RabbitPayload,
   RabbitRPC,
-} from '@golevelup/nestjs-rabbitmq';
+} from '@asanovr/nestjs-rabbitmq';
 import {
   Controller,
   UseGuards,

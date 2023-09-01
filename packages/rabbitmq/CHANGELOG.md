@@ -110,7 +110,7 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 
 - **all packages:** upgrades underlying nest package dependencies to v6 versions
 
-# [4.0.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@3.7.0...@golevelup/nestjs-rabbitmq@4.0.0) (2023-07-18)
+# [4.0.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@3.7.0...@asanovr/nestjs-rabbitmq@4.0.0) (2023-07-18)
 
 - feat(nestjs)!: add support for v10 (#617) ([817729e](https://github.com/golevelup/nestjs/commit/817729ef0fc4d63647430ddac0d011c038b0c36b)), closes [#617](https://github.com/golevelup/nestjs/issues/617)
 
@@ -123,37 +123,37 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 
 - updating to new major NestJS versions
 
-# [3.7.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@3.6.1...@golevelup/nestjs-rabbitmq@3.7.0) (2023-07-03)
+# [3.7.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@3.6.1...@asanovr/nestjs-rabbitmq@3.7.0) (2023-07-03)
 
 ### Features
 
 - **rabbitmq:** support service property to read consumer tags ([#612](https://github.com/golevelup/nestjs/issues/612)) ([37cbb31](https://github.com/golevelup/nestjs/commit/37cbb3140997a14638c07848d3b600b610981168)), closes [#596](https://github.com/golevelup/nestjs/issues/596)
 
-## [3.6.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@3.6.0...@golevelup/nestjs-rabbitmq@3.6.1) (2023-06-05)
+## [3.6.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@3.6.0...@asanovr/nestjs-rabbitmq@3.6.1) (2023-06-05)
 
 ### Bug Fixes
 
 - **rabbitmq:** race condition for RPC ([efdb4d1](https://github.com/golevelup/nestjs/commit/efdb4d1cf00fdba94ffeebfb75c5224b34f864e8)), closes [#599](https://github.com/golevelup/nestjs/issues/599)
 
-# [3.6.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@3.5.0...@golevelup/nestjs-rabbitmq@3.6.0) (2023-03-28)
+# [3.6.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@3.5.0...@asanovr/nestjs-rabbitmq@3.6.0) (2023-03-28)
 
 ### Features
 
 - **rabbitmq:** extend custom parsers, update docs ([5e15faf](https://github.com/golevelup/nestjs/commit/5e15faf2c5e0e079d16c5ebe6c601528f9f658ef)), closes [#574](https://github.com/golevelup/nestjs/issues/574)
 
-# [3.5.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@3.4.0...@golevelup/nestjs-rabbitmq@3.5.0) (2023-02-23)
+# [3.5.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@3.4.0...@asanovr/nestjs-rabbitmq@3.5.0) (2023-02-23)
 
 ### Features
 
 - **rabbitmq:** return promise from publish to be able to await delivery ([#530](https://github.com/golevelup/nestjs/issues/530)) ([7163eca](https://github.com/golevelup/nestjs/commit/7163ecaf948c96b081b803725c023cd75b99002a))
 
-# [3.4.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@3.3.0...@golevelup/nestjs-rabbitmq@3.4.0) (2022-10-31)
+# [3.4.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@3.3.0...@asanovr/nestjs-rabbitmq@3.4.0) (2022-10-31)
 
 ### Features
 
 - **rabbitmq:** add the option to avoid declaring exchanges ([#506](https://github.com/golevelup/nestjs/issues/506)) ([5c9a78f](https://github.com/golevelup/nestjs/commit/5c9a78fb9d17816650d1adc984d0d9ced2f10fbc))
 
-# [3.3.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@3.2.0...@golevelup/nestjs-rabbitmq@3.3.0) (2022-09-21)
+# [3.3.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@3.2.0...@asanovr/nestjs-rabbitmq@3.3.0) (2022-09-21)
 
 ### Bug Fixes
 
@@ -164,7 +164,7 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 
 - **rabbitmq:** add generic type to publish for simple type checking ([#491](https://github.com/golevelup/nestjs/issues/491)) ([45afeb7](https://github.com/golevelup/nestjs/commit/45afeb7ea8b6cc82ff9ccb64afa65fb59c64744d))
 
-# [3.2.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@3.1.0...@golevelup/nestjs-rabbitmq@3.2.0) (2022-07-28)
+# [3.2.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@3.1.0...@asanovr/nestjs-rabbitmq@3.2.0) (2022-07-28)
 
 ### Bug Fixes
 
@@ -177,13 +177,13 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 - **rabbitmq:** better RPC timeout error logs ([8677988](https://github.com/golevelup/nestjs/commit/867798875268d095d074e5802f51cffaf46a982e)), closes [#447](https://github.com/golevelup/nestjs/issues/447)
 - **rabbitmq:** new config property "handlers" ([#446](https://github.com/golevelup/nestjs/issues/446)) ([9986b3d](https://github.com/golevelup/nestjs/commit/9986b3d9a79e2e92e71105767501ce8120cd12b6)), closes [#445](https://github.com/golevelup/nestjs/issues/445)
 
-# [3.1.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@3.0.0...@golevelup/nestjs-rabbitmq@3.1.0) (2022-07-22)
+# [3.1.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@3.0.0...@asanovr/nestjs-rabbitmq@3.1.0) (2022-07-22)
 
 ### Features
 
 - **rabbitmq:** expose consumer tag for cancel & resume ([3f554c2](https://github.com/golevelup/nestjs/commit/3f554c24edc2896540fee457a6c014983d6f1b82))
 
-# [3.0.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@2.4.1...@golevelup/nestjs-rabbitmq@3.0.0) (2022-07-16)
+# [3.0.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@2.4.1...@asanovr/nestjs-rabbitmq@3.0.0) (2022-07-16)
 
 - feat!(stripe, hasura): named execution contexts ([132c6c5](https://github.com/golevelup/nestjs/commit/132c6c5f6dfe24659e1018b92b85277cad2f1726))
 
@@ -191,11 +191,11 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 
 - Switches to using named contexts for stripe and hasura which might have an impact on how interceptors and other NestJS enhancers work with methods that are decorated with the corresponding library handlers
 
-## [2.4.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@2.4.0...@golevelup/nestjs-rabbitmq@2.4.1) (2022-07-16)
+## [2.4.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@2.4.0...@asanovr/nestjs-rabbitmq@2.4.1) (2022-07-16)
 
-**Note:** Version bump only for package @golevelup/nestjs-rabbitmq
+**Note:** Version bump only for package @asanovr/nestjs-rabbitmq
 
-# [2.4.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@2.3.0...@golevelup/nestjs-rabbitmq@2.4.0) (2022-05-31)
+# [2.4.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@2.3.0...@asanovr/nestjs-rabbitmq@2.4.0) (2022-05-31)
 
 ### Bug Fixes
 
@@ -208,7 +208,7 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 - **rabbitmq:** add support for custom message serializer/deserializer ([#443](https://github.com/golevelup/nestjs/issues/443)) ([227f460](https://github.com/golevelup/nestjs/commit/227f4606b4c28fb120caf79feac671c4af084147))
 - improve subscriber ([#427](https://github.com/golevelup/nestjs/issues/427)) ([45f68f6](https://github.com/golevelup/nestjs/commit/45f68f68d2dbc01a82e01d2f9e3dedf3242be854))
 
-# [2.3.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@2.2.0...@golevelup/nestjs-rabbitmq@2.3.0) (2022-04-18)
+# [2.3.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@2.2.0...@asanovr/nestjs-rabbitmq@2.3.0) (2022-04-18)
 
 ### Bug Fixes
 
@@ -218,25 +218,25 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 
 - **rabbitmq:** add support for multiple named connections ([532e2b9](https://github.com/golevelup/nestjs/commit/532e2b9a134d8a27ef6af36c2a71fab7e95c133d))
 
-# [2.2.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@2.1.1...@golevelup/nestjs-rabbitmq@2.2.0) (2022-02-09)
+# [2.2.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@2.1.1...@asanovr/nestjs-rabbitmq@2.2.0) (2022-02-09)
 
 ### Features
 
 - **rabbitmq:** enable handler discovery in controllers ([35f3628](https://github.com/golevelup/nestjs/commit/35f36282272918759d2697c4e2fe2a4245f35146)), closes [#369](https://github.com/golevelup/nestjs/issues/369) [#251](https://github.com/golevelup/nestjs/issues/251)
 
-## [2.1.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@2.1.0...@golevelup/nestjs-rabbitmq@2.1.1) (2022-02-04)
+## [2.1.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@2.1.0...@asanovr/nestjs-rabbitmq@2.1.1) (2022-02-04)
 
 ### Bug Fixes
 
 - **logging:** use Logger instead of ConsoleLogger ([#388](https://github.com/golevelup/nestjs/issues/388)) ([a0f2597](https://github.com/golevelup/nestjs/commit/a0f2597a3d3522f8003957753ca9b814b47652fd)), closes [#351](https://github.com/golevelup/nestjs/issues/351)
 
-# [2.1.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@2.0.0...@golevelup/nestjs-rabbitmq@2.1.0) (2022-02-01)
+# [2.1.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@2.0.0...@asanovr/nestjs-rabbitmq@2.1.0) (2022-02-01)
 
 ### Features
 
 - **rabbitmq:** module lifecycle updates ([#387](https://github.com/golevelup/nestjs/issues/387)) ([4b178b3](https://github.com/golevelup/nestjs/commit/4b178b39d3a2d5600cf705ca3a2b99188ea12fc2)), closes [#386](https://github.com/golevelup/nestjs/issues/386)
 
-# [2.0.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.22.0...@golevelup/nestjs-rabbitmq@2.0.0) (2022-01-24)
+# [2.0.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.22.0...@asanovr/nestjs-rabbitmq@2.0.0) (2022-01-24)
 
 - feat!: update libraries to support Nest 8 (#342) ([de7cd35](https://github.com/golevelup/nestjs/commit/de7cd35ac2e63d66af76b792d5bf99b4a2d82bb4)), closes [#342](https://github.com/golevelup/nestjs/issues/342)
 
@@ -249,56 +249,56 @@ Co-authored-by: danocmx <glencocomaster@centrum.cz>
 Co-authored-by: Rodrigo <monstawoodwow@gmail.com>
 Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 
-# [1.22.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.21.0...@golevelup/nestjs-rabbitmq@1.22.0) (2022-01-23)
+# [1.22.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.21.0...@asanovr/nestjs-rabbitmq@1.22.0) (2022-01-23)
 
 ### Features
 
 - **rabbitmq:** message expiration property ([#373](https://github.com/golevelup/nestjs/issues/373)) ([08e2014](https://github.com/golevelup/nestjs/commit/08e2014)), closes [#270](https://github.com/golevelup/nestjs/issues/270)
 
-# [1.21.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.20.1...@golevelup/nestjs-rabbitmq@1.21.0) (2022-01-23)
+# [1.21.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.20.1...@asanovr/nestjs-rabbitmq@1.21.0) (2022-01-23)
 
 ### Features
 
 - **rabbitmq:** allow setting custom message headers ([#374](https://github.com/golevelup/nestjs/issues/374)) ([d0a2192](https://github.com/golevelup/nestjs/commit/d0a2192)), closes [#372](https://github.com/golevelup/nestjs/issues/372)
 
-## [1.20.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.20.0...@golevelup/nestjs-rabbitmq@1.20.1) (2022-01-20)
+## [1.20.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.20.0...@asanovr/nestjs-rabbitmq@1.20.1) (2022-01-20)
 
 ### Bug Fixes
 
 - **rabbitmq:** make assertQueueErrorHandler optional ([1a5fd4e](https://github.com/golevelup/nestjs/commit/1a5fd4e)), closes [#364](https://github.com/golevelup/nestjs/issues/364)
 
-# [1.20.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.19.0...@golevelup/nestjs-rabbitmq@1.20.0) (2022-01-19)
+# [1.20.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.19.0...@asanovr/nestjs-rabbitmq@1.20.0) (2022-01-19)
 
 ### Features
 
 - **rabbitmq:** add support for multiple channels ([01dee85](https://github.com/golevelup/nestjs/commit/01dee85))
 - **rabbitmq:** assert queue error handler ([8a8698b](https://github.com/golevelup/nestjs/commit/8a8698b))
 
-# [1.19.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.18.1...@golevelup/nestjs-rabbitmq@1.19.0) (2021-12-17)
+# [1.19.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.18.1...@asanovr/nestjs-rabbitmq@1.19.0) (2021-12-17)
 
 ### Features
 
 - add option for arguments when binding queue to an exchange ([#346](https://github.com/golevelup/nestjs/issues/346)) ([c561e73](https://github.com/golevelup/nestjs/commit/c561e73)), closes [#343](https://github.com/golevelup/nestjs/issues/343)
 
-## [1.18.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.18.0...@golevelup/nestjs-rabbitmq@1.18.1) (2021-10-30)
+## [1.18.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.18.0...@asanovr/nestjs-rabbitmq@1.18.1) (2021-10-30)
 
 ### Bug Fixes
 
 - **rabbitmq:** bind queue if routingKey is empty string ([fdac216](https://github.com/golevelup/nestjs/commit/fdac216)), closes [#328](https://github.com/golevelup/nestjs/issues/328)
 
-# [1.18.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.17.1...@golevelup/nestjs-rabbitmq@1.18.0) (2021-10-06)
+# [1.18.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.17.1...@asanovr/nestjs-rabbitmq@1.18.0) (2021-10-06)
 
 ### Features
 
 - direct queue messaging, optional routing key and exchange ([305922e](https://github.com/golevelup/nestjs/commit/305922e)), closes [#316](https://github.com/golevelup/nestjs/issues/316)
 
-## [1.17.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.17.0...@golevelup/nestjs-rabbitmq@1.17.1) (2021-07-06)
+## [1.17.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.17.0...@asanovr/nestjs-rabbitmq@1.17.1) (2021-07-06)
 
 ### Bug Fixes
 
 - **rabbitmq:** check buffer has content before trying to parse as JSON ([#286](https://github.com/golevelup/nestjs/issues/286)) ([cfde21e](https://github.com/golevelup/nestjs/commit/cfde21e)), closes [#285](https://github.com/golevelup/nestjs/issues/285)
 
-# [1.17.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.16.2...@golevelup/nestjs-rabbitmq@1.17.0) (2021-06-08)
+# [1.17.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.16.2...@asanovr/nestjs-rabbitmq@1.17.0) (2021-06-08)
 
 ### Bug Fixes
 
@@ -309,32 +309,32 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 
 - **rabbitmq:** log the disconnect event from connection manager ([9fa5708](https://github.com/golevelup/nestjs/commit/9fa5708))
 
-## [1.16.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.16.1...@golevelup/nestjs-rabbitmq@1.16.2) (2021-05-17)
+## [1.16.2](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.16.1...@asanovr/nestjs-rabbitmq@1.16.2) (2021-05-17)
 
-**Note:** Version bump only for package @golevelup/nestjs-rabbitmq
+**Note:** Version bump only for package @asanovr/nestjs-rabbitmq
 
-## [1.16.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.16.0...@golevelup/nestjs-rabbitmq@1.16.1) (2021-03-26)
+## [1.16.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.16.0...@asanovr/nestjs-rabbitmq@1.16.1) (2021-03-26)
 
-**Note:** Version bump only for package @golevelup/nestjs-rabbitmq
+**Note:** Version bump only for package @asanovr/nestjs-rabbitmq
 
-# [1.16.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.15.2...@golevelup/nestjs-rabbitmq@1.16.0) (2020-12-08)
+# [1.16.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.15.2...@asanovr/nestjs-rabbitmq@1.16.0) (2020-12-08)
 
 ### Features
 
 - **rabbitmq:** execution context check utility ([4256a6b](https://github.com/golevelup/nestjs/commit/4256a6b)), closes [#204](https://github.com/golevelup/nestjs/issues/204)
 - **rabbitmq:** module shutdown logic ([562b99c](https://github.com/golevelup/nestjs/commit/562b99c)), closes [#193](https://github.com/golevelup/nestjs/issues/193)
 
-## [1.15.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.15.1...@golevelup/nestjs-rabbitmq@1.15.2) (2020-10-06)
+## [1.15.2](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.15.1...@asanovr/nestjs-rabbitmq@1.15.2) (2020-10-06)
 
 ### Bug Fixes
 
 - **rabbitmq:** error behavior enum ([6b5bc1f](https://github.com/golevelup/nestjs/commit/6b5bc1f)), closes [#187](https://github.com/golevelup/nestjs/issues/187)
 
-## [1.15.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.15.0...@golevelup/nestjs-rabbitmq@1.15.1) (2020-05-13)
+## [1.15.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.15.0...@asanovr/nestjs-rabbitmq@1.15.1) (2020-05-13)
 
-**Note:** Version bump only for package @golevelup/nestjs-rabbitmq
+**Note:** Version bump only for package @asanovr/nestjs-rabbitmq
 
-# [1.15.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.14.1...@golevelup/nestjs-rabbitmq@1.15.0) (2020-04-16)
+# [1.15.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.14.1...@asanovr/nestjs-rabbitmq@1.15.0) (2020-04-16)
 
 ### Features
 
@@ -343,47 +343,47 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 - **rabbitmq:** error behaviour for replying error ([e438a2a](https://github.com/golevelup/nestjs/commit/e438a2a))
 - **rabbitmq:** integration tests, added option for non-json messages ([bc71ffa](https://github.com/golevelup/nestjs/commit/bc71ffa))
 
-## [1.14.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.14.0...@golevelup/nestjs-rabbitmq@1.14.1) (2020-04-04)
+## [1.14.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.14.0...@asanovr/nestjs-rabbitmq@1.14.1) (2020-04-04)
 
-**Note:** Version bump only for package @golevelup/nestjs-rabbitmq
+**Note:** Version bump only for package @asanovr/nestjs-rabbitmq
 
-# [1.14.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.13.0...@golevelup/nestjs-rabbitmq@1.14.0) (2020-03-28)
+# [1.14.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.13.0...@asanovr/nestjs-rabbitmq@1.14.0) (2020-03-28)
 
 ### Features
 
 - **common:** injectable decorator factory ([42b2f34](https://github.com/golevelup/nestjs/commit/42b2f34)), closes [#120](https://github.com/golevelup/nestjs/issues/120)
 
-# [1.13.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.12.0...@golevelup/nestjs-rabbitmq@1.13.0) (2020-03-27)
+# [1.13.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.12.0...@asanovr/nestjs-rabbitmq@1.13.0) (2020-03-27)
 
 ### Features
 
 - **hasura:** event handling service ([09d3f4d](https://github.com/golevelup/nestjs/commit/09d3f4d)), closes [#116](https://github.com/golevelup/nestjs/issues/116)
 
-## [1.12.1-rc.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.12.0...@golevelup/nestjs-rabbitmq@1.12.1-rc.0) (2020-03-27)
+## [1.12.1-rc.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.12.0...@asanovr/nestjs-rabbitmq@1.12.1-rc.0) (2020-03-27)
 
 ### Features
 
 - **hasura:** event handling service ([a98ab7f](https://github.com/golevelup/nestjs/commit/a98ab7f)), closes [#116](https://github.com/golevelup/nestjs/issues/116)
 
-# [1.12.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.11.0...@golevelup/nestjs-rabbitmq@1.12.0) (2020-03-26)
+# [1.12.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.11.0...@asanovr/nestjs-rabbitmq@1.12.0) (2020-03-26)
 
 ### Features
 
 - **rabbitmq:** optional direct reply-to ([3b7625c](https://github.com/golevelup/nestjs/commit/3b7625c)), closes [#109](https://github.com/golevelup/nestjs/issues/109)
 
-# [1.11.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.10.0...@golevelup/nestjs-rabbitmq@1.11.0) (2020-03-26)
+# [1.11.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.10.0...@asanovr/nestjs-rabbitmq@1.11.0) (2020-03-26)
 
 ### Features
 
 - **rabbitmq:** add correlationId to request ([81cd0ac](https://github.com/golevelup/nestjs/commit/81cd0ac))
 
-# [1.10.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.9.0...@golevelup/nestjs-rabbitmq@1.10.0) (2020-01-22)
+# [1.10.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.9.0...@asanovr/nestjs-rabbitmq@1.10.0) (2020-01-22)
 
 ### Features
 
 - **rabbitmq:** enable conditional rpc/subscribe handler registration ([34c5965](https://github.com/golevelup/nestjs/commit/34c5965)), closes [#98](https://github.com/golevelup/nestjs/issues/98)
 
-# [1.9.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.8.1...@golevelup/nestjs-rabbitmq@1.9.0) (2020-01-12)
+# [1.9.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.8.1...@asanovr/nestjs-rabbitmq@1.9.0) (2020-01-12)
 
 ### Bug Fixes
 
@@ -403,33 +403,33 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 - **conn-mgr:** update wiki ([3a9bbd4](https://github.com/golevelup/nestjs/commit/3a9bbd4))
 - **conn-mgr:** use connection manager ([9049058](https://github.com/golevelup/nestjs/commit/9049058))
 
-## [1.8.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.8.0...@golevelup/nestjs-rabbitmq@1.8.1) (2020-01-06)
+## [1.8.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.8.0...@asanovr/nestjs-rabbitmq@1.8.1) (2020-01-06)
 
-**Note:** Version bump only for package @golevelup/nestjs-rabbitmq
+**Note:** Version bump only for package @asanovr/nestjs-rabbitmq
 
-# [1.8.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.7.3...@golevelup/nestjs-rabbitmq@1.8.0) (2019-12-19)
+# [1.8.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.7.3...@asanovr/nestjs-rabbitmq@1.8.0) (2019-12-19)
 
 ### Features
 
 - **rabbitmq:** add ability to bind handlers to multiple exchange keys ([dd131fe](https://github.com/golevelup/nestjs/commit/dd131fe)), closes [#79](https://github.com/golevelup/nestjs/issues/79)
 
-## [1.7.3](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.7.2...@golevelup/nestjs-rabbitmq@1.7.3) (2019-12-19)
+## [1.7.3](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.7.2...@asanovr/nestjs-rabbitmq@1.7.3) (2019-12-19)
 
 ### Bug Fixes
 
 - **rabbitmq:** add missing queue options ([0f37fb6](https://github.com/golevelup/nestjs/commit/0f37fb6))
 
-## [1.7.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.7.1...@golevelup/nestjs-rabbitmq@1.7.2) (2019-12-18)
+## [1.7.2](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.7.1...@asanovr/nestjs-rabbitmq@1.7.2) (2019-12-18)
 
 ### Bug Fixes
 
 - **rabbitmq:** fix incorrect TS typings ([602cd2d](https://github.com/golevelup/nestjs/commit/602cd2d)), closes [#77](https://github.com/golevelup/nestjs/issues/77)
 
-## [1.7.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.7.0...@golevelup/nestjs-rabbitmq@1.7.1) (2019-12-14)
+## [1.7.1](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.7.0...@asanovr/nestjs-rabbitmq@1.7.1) (2019-12-14)
 
-**Note:** Version bump only for package @golevelup/nestjs-rabbitmq
+**Note:** Version bump only for package @asanovr/nestjs-rabbitmq
 
-# [1.7.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.6.0...@golevelup/nestjs-rabbitmq@1.7.0) (2019-11-09)
+# [1.7.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.6.0...@asanovr/nestjs-rabbitmq@1.7.0) (2019-11-09)
 
 ### Features
 
@@ -454,7 +454,7 @@ Co-authored-by: Jesse Carter <jesse.r.carter@gmail.com>
 
 - **all packages:** upgrades underlying nest package dependencies to v6 versions
 
-## [1.5.1-rc.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.5.0...@golevelup/nestjs-rabbitmq@1.5.1-rc.0) (2019-11-06)
+## [1.5.1-rc.0](https://github.com/golevelup/nestjs/compare/@asanovr/nestjs-rabbitmq@1.5.0...@asanovr/nestjs-rabbitmq@1.5.1-rc.0) (2019-11-06)
 
 ### Bug Fixes
 

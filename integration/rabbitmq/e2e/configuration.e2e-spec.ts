@@ -2,7 +2,7 @@ import {
   RabbitMQConfig,
   AmqpConnection,
   RabbitMQModule,
-} from '@golevelup/nestjs-rabbitmq';
+} from '@asanovr/nestjs-rabbitmq';
 import { ConsoleLogger } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import * as amqplib from 'amqplib';

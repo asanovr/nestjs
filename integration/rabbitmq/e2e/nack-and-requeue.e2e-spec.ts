@@ -3,7 +3,7 @@ import {
   Nack,
   RabbitMQModule,
   RabbitSubscribe,
-} from '@golevelup/nestjs-rabbitmq';
+} from '@asanovr/nestjs-rabbitmq';
 import { INestApplication, Injectable } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 

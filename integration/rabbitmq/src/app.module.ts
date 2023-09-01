@@ -1,4 +1,4 @@
-import { RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
+import { RabbitMQModule } from '@asanovr/nestjs-rabbitmq';
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { ControllerDiscoveryModule } from './controller-discovery/controller-discovery.module';

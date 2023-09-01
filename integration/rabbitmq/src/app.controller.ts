@@ -1,4 +1,4 @@
-import { AmqpConnection } from '@golevelup/nestjs-rabbitmq';
+import { AmqpConnection } from '@asanovr/nestjs-rabbitmq';
 import { Controller, Get } from '@nestjs/common';
 
 @Controller()

@@ -1,4 +1,4 @@
-import { AmqpConnection, RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
+import { AmqpConnection, RabbitMQModule } from '@asanovr/nestjs-rabbitmq';
 import { INestApplication, LoggerService } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 import { createMock } from '@golevelup/ts-jest';

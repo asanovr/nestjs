@@ -2,7 +2,7 @@ import {
   RabbitMQModule,
   RabbitRPC,
   RabbitSubscribe,
-} from '@golevelup/nestjs-rabbitmq';
+} from '@asanovr/nestjs-rabbitmq';
 import { Controller, Get, Injectable, Module } from '@nestjs/common';
 import { INestApplication } from '@nestjs/common';
 import { Test } from '@nestjs/testing';

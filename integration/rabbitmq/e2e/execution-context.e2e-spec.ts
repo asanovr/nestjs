@@ -3,7 +3,7 @@ import {
   isRabbitContext,
   RabbitMQModule,
   RabbitSubscribe,
-} from '@golevelup/nestjs-rabbitmq';
+} from '@asanovr/nestjs-rabbitmq';
 import { CallHandler, ExecutionContext, NestInterceptor } from '@nestjs/common';
 import { INestApplication, Injectable } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
