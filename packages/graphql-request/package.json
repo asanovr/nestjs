@@ -1,5 +1,5 @@
 {
-  "name": "@golevelup/nestjs-graphql-request",
+  "name": "@asanovr/nestjs-graphql-request",
   "version": "0.1.17",
   "description": "Badass utilities for integrating graphql-request and NestJS",
   "author": "Jesse Carter <jesse.r.carter@gmail.com>",
